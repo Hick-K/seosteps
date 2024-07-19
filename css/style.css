@@ -214,7 +214,7 @@ footer small {
 #navs-fix {
   position: fixed;
   right: 8px;
-  bottom: 10dvh;
+  bottom: 64px;
   width: 32px;
   height: 32px;
   line-height: 32px;
@@ -231,10 +231,10 @@ footer small {
   border: 1px solid #000;
 }
 
-#navs #close-navs {
+#close-navs {
   position: absolute;
   right: 8px;
-  bottom: 10dvh;
+  bottom: 64px;
   width: 32px;
   line-height: 32px;
   background-color: rgba(255, 255, 255, .8);
@@ -244,7 +244,7 @@ footer small {
   color: #000;
 }
 
-#navs #close-navs:hover {
+#close-navs:hover {
   color: #fff;
   background-color: rgba(50, 50, 50, .6);
 }
@@ -256,7 +256,7 @@ footer small {
   top: 0;
   right: -100%;
   width: 48px;
-  height: 100vh;
+  height: 100%;
   padding: none;
   transition: left .5s, right .5s;
   background-color: rgba(86, 86, 86, .5);
